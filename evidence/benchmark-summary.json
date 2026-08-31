@@ -1,0 +1,66 @@
+{
+  "schema_version": "agent-skills-lab-benchmark-summary/v1",
+  "evaluation_state": "OFFLINE_REGRADE_COMPLETE",
+  "claims_gate": "EXPAND_BEFORE_PUBLIC_CLAIMS",
+  "source_receipts": {
+    "preserved_result_receipts": 25,
+    "new_model_calls": 0,
+    "result_sha256": "3c7c398cfb98dcb215dd20b1db928a82d4fb87262adbba0b5ab20206de0194a4"
+  },
+  "conditions": {
+    "dataset": "frozen synthetic paired set",
+    "paired_runs_per_case": 1,
+    "regrade": "offline preserved-artifact quality regrade",
+    "size_policy": "telemetry only"
+  },
+  "skills": [
+    {
+      "skill_id": "agent-system-integration-audit",
+      "verdict": "LIMITED_ADVANCE",
+      "measured": {
+        "primary_metric": "professional_packet_quality",
+        "without_skill": "0/3",
+        "with_skill": "2/3",
+        "secondary_metric": "semantic_detection",
+        "secondary_without_skill": "3/3",
+        "secondary_with_skill": "3/3"
+      },
+      "not_proven": ["semantic detection lift", "general defect-detection lift"]
+    },
+    {
+      "skill_id": "dual-lens-investment-review",
+      "verdict": "ADVANCE",
+      "measured": {
+        "primary_metric": "valid_lens_delivery",
+        "without_skill": "0/6",
+        "with_skill": "6/6",
+        "secondary_metric": "reconciliation",
+        "secondary_without_skill": "0/3",
+        "secondary_with_skill": "3/3"
+      },
+      "not_proven": ["raw reasoning lift", "investment performance"]
+    },
+    {
+      "skill_id": "ai-anime-production-director",
+      "verdict": "LIMITED_ADVANCE",
+      "measured": {
+        "primary_metric": "valid_storyboard_workflow_artifact",
+        "without_skill": "0/2",
+        "with_skill": "2/2",
+        "secondary_metric": "blind_preference",
+        "secondary_without_skill": "unavailable",
+        "secondary_with_skill": "unavailable"
+      },
+      "not_proven": ["finished media quality", "blind preference"]
+    }
+  ],
+  "public_claim": "In this frozen synthetic paired set, the Skills improved structured delivery, workflow reliability, or human-review gates.",
+  "unsupported_claims": [
+    "general intelligence uplift",
+    "statistically strong public benchmark",
+    "raw reasoning lift for Skill B",
+    "finished media quality",
+    "investment performance",
+    "production certification"
+  ]
+}

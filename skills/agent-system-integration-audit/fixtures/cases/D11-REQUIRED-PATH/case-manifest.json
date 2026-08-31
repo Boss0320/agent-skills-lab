@@ -1,0 +1,11 @@
+{
+  "case_id": "D11-REQUIRED-PATH",
+  "project_name": "CobaltDispatch",
+  "file_sha256": {
+    "src/contracts.py": "02284b25090bc0fbb948d34596afc70a8e282e392ebb6f5786f7444e302a89e9",
+    "src/component.py": "9e5e2cb3a01a63e04d97a8b508965756dc92f3f23a26821c8f65adb838beda55",
+    "src/integration.py": "e4a8aab5c0732901b31d2e5dc9536ba156c5f9a48ba45504fa0bdb5e0396c2d1",
+    "config/system.json": "5903c757618125d268c3e06995bfe1b7c10b791edf76639837967f29f0cea666",
+    "tests/test_system.py": "4cdfe70a0299e39103e167e31da80d1718c202d27818fa1142277f19d676cdbf"
+  }
+}

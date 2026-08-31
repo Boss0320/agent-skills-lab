@@ -1,0 +1,11 @@
+{
+  "case_id": "CLEAN-02",
+  "project_name": "WillowLimits",
+  "file_sha256": {
+    "src/contracts.py": "dcd040cc4810440ec42960f40171f600d3a5b674615649f84afb6ec24c03a7bf",
+    "src/component.py": "f51ed6313088a1552ecef623e67e8ba4e99db07554faf732152bcda43f4ce80a",
+    "src/integration.py": "8389577941d0506e8484b58ffb64acceb38573cb1e28be59359e6eed0503ce31",
+    "config/system.json": "790ff8197fafc17f0b49188c1cb80862e604c57b828b76c4484d15b925b55073",
+    "tests/test_system.py": "1942f45d90765bec0ce2687ca3305d2619795cb93ebe04957b3a8f8842a00884"
+  }
+}

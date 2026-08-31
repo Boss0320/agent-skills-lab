@@ -1,0 +1,25 @@
+{
+  "case_id": "CASE-EMBER",
+  "files": [
+    {
+      "bytes": 387,
+      "path": "TASK.md",
+      "sha256": "3d447556fae9ee14dcb7ebe7219579d953a57455054ca76abf2249f2f4943b8f"
+    },
+    {
+      "bytes": 266,
+      "path": "decision-context.md",
+      "sha256": "90ce1074ebcbb1553b0fb8d367482b97bcd5c435e542651bc9a9b7f8cedeeebf"
+    },
+    {
+      "bytes": 534,
+      "path": "report.md",
+      "sha256": "69d41598f2e0acd5b13d6547d75fc54266e93a7f18c66a9ef9486908e16a1028"
+    },
+    {
+      "bytes": 276,
+      "path": "sources/annual-summary.md",
+      "sha256": "83c7f8ff40eb70426354f9b4955385c34bf5d1f3d5ac5b5231addeb0e39af4bf"
+    }
+  ]
+}

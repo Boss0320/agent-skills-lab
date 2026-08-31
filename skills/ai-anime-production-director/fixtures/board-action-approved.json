@@ -1,0 +1,72 @@
+{
+  "adjacent_shots": {
+    "next_screen_direction": null,
+    "previous_screen_direction": null
+  },
+  "approval": {
+    "approved_at": "2026-08-30T20:00:00Z",
+    "approver_id": "synthetic-director",
+    "draft_sha256": "6bc147e21fe5b2a39b3d3c37481b446f93a3577566d5c9eb61f863b133c508c5",
+    "reference_roles_sha256": "00ff559fec1ad7aa48c9c070cba428755f590dddf0b48346ea9d4e473e0cd0ff"
+  },
+  "beats": [
+    {
+      "beat_id": "B1",
+      "camera_motion": "Rise from waist toward the face.",
+      "character_motion": "Right hand closes on the sword grip.",
+      "composition": "Waist-level medium close view.",
+      "end_seconds": 1.2,
+      "environment_reaction": "Loose cloth settles before acceleration.",
+      "prop_state": "Sword remains sheathed and owned by the guard.",
+      "reference_ids": [
+        "CHAR-FRONT",
+        "SWORD-DETAIL",
+        "BOARD-START"
+      ],
+      "start_seconds": 0.0
+    },
+    {
+      "beat_id": "B2",
+      "camera_motion": "Continue rising, then begin a pullback.",
+      "character_motion": "Sword clears the waist and rises overhead.",
+      "composition": "Head-and-torso view opens to a wider frame.",
+      "end_seconds": 3.0,
+      "environment_reaction": "Hair and sash lag behind the lift.",
+      "prop_state": "Sword is overhead in the guard's right hand.",
+      "reference_ids": [
+        "CHAR-SIDE",
+        "SWORD-DETAIL",
+        "BOARD-MID"
+      ],
+      "start_seconds": 1.2
+    },
+    {
+      "beat_id": "B3",
+      "camera_motion": "Pull back while holding the travel axis.",
+      "character_motion": "Guard leans forward and charges right.",
+      "composition": "Wide view preserves forward travel space.",
+      "end_seconds": 5.0,
+      "environment_reaction": "Dust and cloth trail the acceleration.",
+      "prop_state": "Sword remains overhead in the right hand.",
+      "reference_ids": [
+        "CHAR-FRONT",
+        "CHAR-SIDE",
+        "BOARD-END"
+      ],
+      "start_seconds": 3.0
+    }
+  ],
+  "board_state": "human_approved",
+  "boundary_state": {
+    "end": "Guard travels right with sword overhead in the right hand.",
+    "start": "Guard faces right with sword sheathed at the left waist."
+  },
+  "duration_seconds": 5.0,
+  "control_method": "multi-keyframe",
+  "human_decision_owner": "Director",
+  "route_class": "multi-beat-action-prop-transition",
+  "screen_direction": "left-to-right",
+  "shot_id": "SHOT-SWORD-01",
+  "story_function": "The guard turns hesitation into a committed charge.",
+  "unresolved_decisions": []
+}

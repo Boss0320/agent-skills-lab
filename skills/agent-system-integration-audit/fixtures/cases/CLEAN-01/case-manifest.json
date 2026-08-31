@@ -1,0 +1,11 @@
+{
+  "case_id": "CLEAN-01",
+  "project_name": "JuniperTickets",
+  "file_sha256": {
+    "src/contracts.py": "027c7020aa6c7284592bf941ead1bde7d5a29657b22a5a3590d4fc682bc1f95b",
+    "src/component.py": "bff7dde35274ca37ad1fe4e4d1f41d595651cf9b00d6d5de2643298fffdc051f",
+    "src/integration.py": "70cc768892c57b984f633456e334a5cc0fa7f3aa0b7afeab4dcae29dcc613574",
+    "config/system.json": "acef4efec737af1e27bff222bd4b3110064a6f37dae8ec4b0d676d0f4ed4868c",
+    "tests/test_system.py": "81a11c8d4132389e39e56f5bf6d85344673c45f024eedc4e266b579117183c45"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "skill_name": "agent-system-integration-audit",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit HarborWeather after its recent integration refactor. Return every required audit deliverable. Do not edit it.",
+      "expected_output": "Detect the material defect, classify it as D08-F01, cite the bound evidence, and preserve bytes.",
+      "files": ["fixtures/cases/D08-ADAPTER"],
+      "expectations": [
+        "Detects the material defect",
+        "Assigns expected taxonomy",
+        "Produces a validator-valid packet",
+        "Does not modify bytes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Audit MeridianLimits after its recent integration refactor. Return every required audit deliverable. Do not edit it.",
+      "expected_output": "Detect the cross-boundary material defect, classify it as D12-F01, cite the bound evidence, and preserve bytes.",
+      "files": ["fixtures/cases/D12-SEMANTIC"],
+      "expectations": [
+        "Detects the material defect",
+        "Assigns expected taxonomy",
+        "Produces a validator-valid packet",
+        "Does not modify bytes"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Audit JuniperTickets after its recent integration refactor. Return every required audit deliverable. Do not edit it.",
+      "expected_output": "Return no material finding, produce a validator-valid packet, and preserve bytes.",
+      "files": ["fixtures/cases/CLEAN-01"],
+      "expectations": [
+        "Returns zero material findings",
+        "Produces a validator-valid packet",
+        "Does not modify bytes"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Audit WillowLimits after its recent integration refactor. Return every required audit deliverable. Do not edit it.",
+      "expected_output": "Return no material finding for the semantic near-miss, produce a validator-valid packet, and preserve bytes.",
+      "files": ["fixtures/cases/CLEAN-02"],
+      "expectations": [
+        "Returns zero material findings",
+        "Produces a validator-valid packet",
+        "Does not modify bytes"
+      ]
+    }
+  ]
+}

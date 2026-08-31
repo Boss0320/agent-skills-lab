@@ -1,0 +1,5 @@
+{
+  "adapter": "mock",
+  "required_fields": ["station", "temperature_c", "observed_at"],
+  "station": "HBR-1"
+}

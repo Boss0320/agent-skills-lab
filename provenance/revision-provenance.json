@@ -1,0 +1,48 @@
+{
+  "schema_version": "agent-skills-lab-revision-provenance/v3",
+  "revision": "private-remote-publication-2026-08-31",
+  "state": "LOCAL_CANDIDATE_RIGHTS_APPROVED",
+  "repository": {
+    "approved_slug": "agent-skills-lab",
+    "git_state": "INITIALIZED",
+    "remote_state": "PRIVATE_GITHUB",
+    "public_status": "PENDING_OWNER_TOGGLE"
+  },
+  "evidence": {
+    "aggregate_path": "evidence/benchmark-summary.json",
+    "aggregate_sha256": "28401ee45ebd933cfb03415e3e751af56bb0313ca7869c187756d77174f24227",
+    "source_result_sha256": "3c7c398cfb98dcb215dd20b1db928a82d4fb87262adbba0b5ab20206de0194a4",
+    "claims_gate": "EXPAND_BEFORE_PUBLIC_CLAIMS"
+  },
+  "rights": {
+    "status": "ALL_RIGHTS_RESERVED_PORTFOLIO_EVALUATION_ONLY",
+    "license_path": "LICENSE",
+    "third_party_notice_path": "provenance/third-party-notices.md"
+  },
+  "entries": [
+    {
+      "skill": "A",
+      "path": "skills/agent-system-integration-audit/SKILL.md",
+      "source_label": "canonical_public_package",
+      "before_sha256": "34e49fbb12cdad64768b62daf5da883943650b4422f6519ab9ef2acd869b7c6c",
+      "after_sha256": "2c19a157c69198e1ed953c6894049e912db4c1130779bb18cdc3e93b12b686a8",
+      "change_kind": "modified"
+    },
+    {
+      "skill": "B",
+      "path": "skills/dual-lens-investment-review/SKILL.md",
+      "source_label": "canonical_public_package_with_tested_delivery_comparison",
+      "before_sha256": "cc8281269b2044e0d20f69512c41f4b202aa8e38296e7676624beb051ff90322",
+      "after_sha256": "9ef5204a1cbbc60df131ad2d5088624f47fac744a9fe08bb1c4aca2ed7590fb9",
+      "change_kind": "modified"
+    },
+    {
+      "skill": "C",
+      "path": "skills/ai-anime-production-director/SKILL.md",
+      "source_label": "new_public_skill_from_clean_room_candidate",
+      "before_sha256": "ABSENT",
+      "after_sha256": "4e163c4c17562bb0540771ab9e576177682d9e0090a07e02925ff657ee1e233b",
+      "change_kind": "added"
+    }
+  ]
+}

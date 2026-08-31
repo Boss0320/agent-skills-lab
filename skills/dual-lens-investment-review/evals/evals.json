@@ -1,0 +1,57 @@
+{
+  "skill_name": "dual-lens-investment-review",
+  "evals": [
+    {
+      "id": 1,
+      "case_id": "CASE-EMBER",
+      "prompt": "Run the assigned isolated review lens on the frozen CASE-EMBER synthetic report. Use only the staged files and write lens-decision.json plus lens-review.json using the public contract.",
+      "expected_output": "BLOCK",
+      "files": ["fixtures/cases/CASE-EMBER"],
+      "expectations": [
+        "Both isolated lens decisions match the hidden semantic catalog",
+        "Source integrity identifies the material contradicted claim",
+        "Deterministic reconciliation returns BLOCK",
+        "Every accepted finding has valid in-scope evidence"
+      ]
+    },
+    {
+      "id": 2,
+      "case_id": "CASE-DELTA",
+      "prompt": "Run the assigned isolated review lens on the frozen CASE-DELTA synthetic report. Use only the staged files and write lens-decision.json plus lens-review.json using the public contract.",
+      "expected_output": "BLOCK",
+      "files": ["fixtures/cases/CASE-DELTA"],
+      "expectations": [
+        "Both isolated lens decisions match the hidden semantic catalog",
+        "Source integrity catches the period and basis error",
+        "Deterministic reconciliation returns BLOCK",
+        "Every accepted finding has valid in-scope evidence"
+      ]
+    },
+    {
+      "id": 3,
+      "case_id": "CASE-HARBOR",
+      "prompt": "Run the assigned isolated review lens on the frozen CASE-HARBOR synthetic report. Use only the staged files and write lens-decision.json plus lens-review.json using the public contract.",
+      "expected_output": "READY_FOR_HUMAN_REVIEW",
+      "files": ["fixtures/cases/CASE-HARBOR"],
+      "expectations": [
+        "Both isolated lenses pass the supported control",
+        "Source integrity does not invent a material failure",
+        "Deterministic reconciliation returns READY_FOR_HUMAN_REVIEW",
+        "All claim checks cite valid in-scope sources"
+      ]
+    },
+    {
+      "id": 4,
+      "case_id": "CASE-IVORY",
+      "prompt": "Run the assigned isolated review lens on the frozen CASE-IVORY synthetic report. Use only the staged files and write lens-decision.json plus lens-review.json using the public contract.",
+      "expected_output": "REVISE",
+      "files": ["fixtures/cases/CASE-IVORY"],
+      "expectations": [
+        "Both isolated lens decisions match the hidden semantic catalog",
+        "Source integrity preserves undisclosed concentration as Unknown",
+        "Deterministic reconciliation returns REVISE rather than BLOCK",
+        "Every accepted finding has valid in-scope evidence"
+      ]
+    }
+  ]
+}

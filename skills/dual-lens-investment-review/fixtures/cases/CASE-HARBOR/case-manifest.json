@@ -1,0 +1,30 @@
+{
+  "case_id": "CASE-HARBOR",
+  "files": [
+    {
+      "bytes": 388,
+      "path": "TASK.md",
+      "sha256": "c537d6a679da145fa05d7466d9a6d9a72ca080e91c6718159cb3deedfb953fc9"
+    },
+    {
+      "bytes": 220,
+      "path": "decision-context.md",
+      "sha256": "d8e573aa67ddfc54fa0b1aec237764b29e6f5d93ee8f296a88f6bafaceb5e134"
+    },
+    {
+      "bytes": 679,
+      "path": "report.md",
+      "sha256": "123900f00d9ec461225d6ddcd983f02ba00cabe586ba665b58db6aed0e962b54"
+    },
+    {
+      "bytes": 201,
+      "path": "sources/annual-summary.md",
+      "sha256": "b6e8861343fc553c0764fdfe3d3e6efa5d294275a3cb80424dc453fac3c2831b"
+    },
+    {
+      "bytes": 217,
+      "path": "sources/risk-note.md",
+      "sha256": "ea2d58e1455bbebab868cdfba2409548bb728e88e6a4698eb561c1ff1f005b5c"
+    }
+  ]
+}

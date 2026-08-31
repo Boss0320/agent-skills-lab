@@ -1,0 +1,11 @@
+{
+  "case_id": "D02-SCHEMA",
+  "project_name": "NorthstarMetrics",
+  "file_sha256": {
+    "src/contracts.py": "a7a1f4719d3b1b990ef0b9db97467063bd6dc5445704a3604c199be0b6cee785",
+    "src/component.py": "ca0c4ac4b2bb21258704f96a233560d01cd50b3a221096a0f1a8a6527dcfde4f",
+    "src/integration.py": "7e11f315b1a07c85f0d97c5d54402c976153022344fde98301c9f6278066366e",
+    "config/system.json": "1530bdf44cb966f813f1157d79e7221c0e729aa544fb3a1197189d4c853598db",
+    "tests/test_system.py": "a927d5693cc391d2e9a282d00d618044ccfbdea6f3e92080b925ad2cdd5a4e56"
+  }
+}

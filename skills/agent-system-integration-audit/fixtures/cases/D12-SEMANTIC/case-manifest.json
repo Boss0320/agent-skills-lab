@@ -1,0 +1,11 @@
+{
+  "case_id": "D12-SEMANTIC",
+  "project_name": "MeridianLimits",
+  "file_sha256": {
+    "src/contracts.py": "dcd040cc4810440ec42960f40171f600d3a5b674615649f84afb6ec24c03a7bf",
+    "src/component.py": "f51ed6313088a1552ecef623e67e8ba4e99db07554faf732152bcda43f4ce80a",
+    "src/integration.py": "7bb647fc7ef8492a558480816697d8383b121c84a2b6563468a270a00e035991",
+    "config/system.json": "790ff8197fafc17f0b49188c1cb80862e604c57b828b76c4484d15b925b55073",
+    "tests/test_system.py": "87ede67780cff64db2441df9589336b34fc2151cedfae62022e87aae499fd196"
+  }
+}

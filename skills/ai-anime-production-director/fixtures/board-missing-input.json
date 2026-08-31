@@ -1,0 +1,38 @@
+{
+  "adjacent_shots": {
+    "next_screen_direction": null,
+    "previous_screen_direction": null
+  },
+  "approval": null,
+  "beats": [
+    {
+      "beat_id": "B1",
+      "camera_motion": "Static until the director chooses the emphasis.",
+      "character_motion": "Guard waits with one hand near the sword.",
+      "composition": "Medium view with travel space to the right.",
+      "end_seconds": 5.0,
+      "environment_reaction": "Cloth moves lightly in the wind.",
+      "prop_state": "Sword remains sheathed at the left waist.",
+      "reference_ids": [
+        "CHAR-FRONT",
+        "SWORD-DETAIL"
+      ],
+      "start_seconds": 0.0
+    }
+  ],
+  "board_state": "draft",
+  "boundary_state": {
+    "end": "Guard remains in place with sword sheathed.",
+    "start": "Guard faces right with sword sheathed at the left waist."
+  },
+  "duration_seconds": 5.0,
+  "control_method": "single-keyframe",
+  "human_decision_owner": "Director",
+  "route_class": "dialogue-simple-acting",
+  "screen_direction": "static",
+  "shot_id": "SHOT-SWORD-01",
+  "story_function": null,
+  "unresolved_decisions": [
+    "Director must choose whether hesitation becomes retreat or commitment."
+  ]
+}

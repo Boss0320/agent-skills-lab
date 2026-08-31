@@ -1,0 +1,11 @@
+{
+  "case_id": "D03-DATAFLOW",
+  "project_name": "CedarSignals",
+  "file_sha256": {
+    "src/contracts.py": "4479061bec42e58adc027f332c7c84aef485419bee094b1076d9020815efd9a8",
+    "src/component.py": "406263e8e2dc4adf529baa030acee08d27c2b2a4df8cd639151da26fdfdd32a8",
+    "src/integration.py": "85611e2e35426d1fd017a8c58bef83968872375cf01d846e98fbc614405ec125",
+    "config/system.json": "5402c1c49e51222da8901837b3f31f6e4b421e07c1dbd43871ca00ddf8f2a5e6",
+    "tests/test_system.py": "4ad9f76c7f33ed0f5225bc5dbf2019dd5199f3cd90102fc35126d0851ecdde02"
+  }
+}

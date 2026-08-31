@@ -1,0 +1,163 @@
+{
+  "cases": [
+    {
+      "case_id": "D01-DEPENDENCY",
+      "dimension": 1,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D01-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D01-DEPENDENCY",
+      "expected_evidence": {"D01-F01": "src/contracts.py:11"}
+    },
+    {
+      "case_id": "D02-SCHEMA",
+      "dimension": 2,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D02-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D02-SCHEMA",
+      "expected_evidence": {"D02-F01": "src/contracts.py:21"}
+    },
+    {
+      "case_id": "D03-DATAFLOW",
+      "dimension": 3,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D03-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D03-DATAFLOW",
+      "expected_evidence": {"D03-F01": "src/integration.py:8"}
+    },
+    {
+      "case_id": "D04-AUTHORITY",
+      "dimension": 4,
+      "severity": "CRITICAL",
+      "expected_finding_ids": ["D04-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D04-AUTHORITY",
+      "expected_evidence": {"D04-F01": "src/component.py:41"}
+    },
+    {
+      "case_id": "D05-CONFIG",
+      "dimension": 5,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D05-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D05-CONFIG",
+      "expected_evidence": {"D05-F01": "src/contracts.py:51"}
+    },
+    {
+      "case_id": "D06-FALLBACK",
+      "dimension": 6,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D06-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D06-FALLBACK",
+      "expected_evidence": {"D06-F01": "src/component.py:61"}
+    },
+    {
+      "case_id": "D07-IMPORT",
+      "dimension": 7,
+      "severity": "MINOR",
+      "expected_finding_ids": ["D07-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D07-IMPORT",
+      "expected_evidence": {"D07-F01": "src/contracts.py:71"}
+    },
+    {
+      "case_id": "D08-ADAPTER",
+      "dimension": 8,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D08-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D08-ADAPTER",
+      "expected_evidence": {"D08-F01": "src/component.py:81"}
+    },
+    {
+      "case_id": "D09-EVENT",
+      "dimension": 9,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D09-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D09-EVENT",
+      "expected_evidence": {"D09-F01": "src/integration.py:91"}
+    },
+    {
+      "case_id": "D10-PROMPT-TOOL",
+      "dimension": 10,
+      "severity": "CRITICAL",
+      "expected_finding_ids": ["D10-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D10-PROMPT-TOOL",
+      "expected_evidence": {"D10-F01": "src/integration.py:101"}
+    },
+    {
+      "case_id": "D11-REQUIRED-PATH",
+      "dimension": 11,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["D11-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D11-REQUIRED-PATH",
+      "expected_evidence": {"D11-F01": "src/integration.py:15"}
+    },
+    {
+      "case_id": "D12-SEMANTIC",
+      "dimension": 12,
+      "severity": "CRITICAL",
+      "expected_finding_ids": ["D12-F01"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/D12-SEMANTIC",
+      "expected_evidence": {"D12-F01": "src/contracts.py:121"}
+    },
+    {
+      "case_id": "CLEAN-01",
+      "dimension": null,
+      "severity": null,
+      "expected_finding_ids": [],
+      "clean_control": true,
+      "project_root": "fixtures/cases/CLEAN-01",
+      "expected_evidence": {}
+    },
+    {
+      "case_id": "CLEAN-02",
+      "dimension": null,
+      "severity": null,
+      "expected_finding_ids": [],
+      "clean_control": true,
+      "project_root": "fixtures/cases/CLEAN-02",
+      "expected_evidence": {}
+    },
+    {
+      "case_id": "MIXED-CRITICAL-01",
+      "dimension": 4,
+      "severity": "CRITICAL",
+      "expected_finding_ids": ["MIXED-C-F01", "MIXED-C-F02"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/MIXED-CRITICAL-01",
+      "expected_evidence": {
+        "MIXED-C-F01": "src/component.py:141",
+        "MIXED-C-F02": "src/integration.py:142"
+      }
+    },
+    {
+      "case_id": "MIXED-MATERIAL-01",
+      "dimension": 8,
+      "severity": "MATERIAL",
+      "expected_finding_ids": ["MIXED-M-F01", "MIXED-M-F02"],
+      "clean_control": false,
+      "project_root": "fixtures/cases/MIXED-MATERIAL-01",
+      "expected_evidence": {
+        "MIXED-M-F01": "src/contracts.py:151",
+        "MIXED-M-F02": "src/component.py:152"
+      }
+    },
+    {
+      "case_id": "CLEAN-03",
+      "dimension": null,
+      "severity": null,
+      "expected_finding_ids": [],
+      "clean_control": true,
+      "project_root": "fixtures/cases/CLEAN-03",
+      "expected_evidence": {}
+    }
+  ]
+}

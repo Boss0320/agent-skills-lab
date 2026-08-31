@@ -1,0 +1,25 @@
+{
+  "case_id": "CASE-DELTA",
+  "files": [
+    {
+      "bytes": 387,
+      "path": "TASK.md",
+      "sha256": "49ed755dc92d485db80afba137e4a8474bf7eb3c1851781398859c298edc5e81"
+    },
+    {
+      "bytes": 212,
+      "path": "decision-context.md",
+      "sha256": "0f7992c06bf037531b4635281a1322936882390845554537d76fe6a94ae130bf"
+    },
+    {
+      "bytes": 590,
+      "path": "report.md",
+      "sha256": "c6b63f482bfb50e53eca90950a4a6df4aae559e86211598817b81003f37d8368"
+    },
+    {
+      "bytes": 325,
+      "path": "sources/cash-flow-note.md",
+      "sha256": "0583ad736f6fe11e1fabca28a2418a4df63ea5b5c44af5a43b6ea47978cce997"
+    }
+  ]
+}

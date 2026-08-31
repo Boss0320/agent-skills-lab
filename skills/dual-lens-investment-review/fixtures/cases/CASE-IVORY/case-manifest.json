@@ -1,0 +1,30 @@
+{
+  "case_id": "CASE-IVORY",
+  "files": [
+    {
+      "bytes": 387,
+      "path": "TASK.md",
+      "sha256": "acac34a50f8177f1436c5877652c606d958114616274467f724cd634abba4f6b"
+    },
+    {
+      "bytes": 274,
+      "path": "decision-context.md",
+      "sha256": "c7e0451c78461a5bc28f423116bd8906deecc805b8834bd0ebd48a10c4c9dce1"
+    },
+    {
+      "bytes": 601,
+      "path": "report.md",
+      "sha256": "b40d6f382802f5dcde48a12b9c9955a011d43ea660673da4d216b9d957452433"
+    },
+    {
+      "bytes": 201,
+      "path": "sources/annual-summary.md",
+      "sha256": "00cdf1ec7ccdf0954d8036a6095c116312b3342bd4176768a2d4b71f632c0456"
+    },
+    {
+      "bytes": 214,
+      "path": "sources/customer-note.md",
+      "sha256": "638dd661768509f25702e32e89c0ad6203b1e2d63099e421e97e9cf26a75e0cb"
+    }
+  ]
+}

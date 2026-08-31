@@ -1,0 +1,26 @@
+{
+  "references": [
+    {
+      "asset_state": "provided",
+      "content_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "description": "Front identity and costume anchor.",
+      "primary_role": "identity",
+      "reference_id": "CHAR-FRONT"
+    },
+    {
+      "asset_state": "provided",
+      "content_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "description": "The same reference is incorrectly assigned a second primary purpose.",
+      "primary_role": "motion",
+      "reference_id": "CHAR-FRONT"
+    },
+    {
+      "asset_state": "provided",
+      "content_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+      "description": "Sword hilt and guard geometry.",
+      "primary_role": "prop",
+      "reference_id": "SWORD-DETAIL"
+    }
+  ],
+  "shot_id": "SHOT-SWORD-01"
+}

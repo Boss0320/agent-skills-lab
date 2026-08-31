@@ -1,0 +1,11 @@
+{
+  "case_id": "D08-ADAPTER",
+  "project_name": "HarborWeather",
+  "file_sha256": {
+    "src/contracts.py": "c70605e96ea1a823691f7fc0ae531d9a2d7e11629db7a363319428f84ab0fcd8",
+    "src/component.py": "47e2621528dcf6e97c79eefa40686a4463b4729adbfe095bcbdc6ea5bb43c3d0",
+    "src/integration.py": "fca9d3182bbf62a50ddfc42aaf9a469662398b7bfbd0bc63e7ed74c50b7cea9d",
+    "config/system.json": "d241daf6afc85134867f4ffa3e5d62c6f7751b2a43467b200dccbe060157b031",
+    "tests/test_system.py": "655db4bc234a9d3e1d14eec01b058d4e049a621fe411761df7ee68d5f1a31d36"
+  }
+}

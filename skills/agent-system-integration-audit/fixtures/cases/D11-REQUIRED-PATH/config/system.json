@@ -1,0 +1,5 @@
+{
+  "entrypoint": "run_required_path",
+  "gate": "PolicyGate",
+  "required_sink": "AuditSink"
+}

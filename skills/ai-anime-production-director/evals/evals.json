@@ -1,0 +1,35 @@
+{
+  "limitations": [
+    "Deterministic fixtures do not establish model lift or generated-media quality.",
+    "Historical executor and comparator outputs remain outside the public package.",
+    "Any fresh with-Skill/no-Skill run requires a separate bounded authorization."
+  ],
+  "pilot_cases": [
+    {
+      "case_id": "C-INPUT-01",
+      "expected_state": "INPUT_REQUIRED",
+      "focus": "explicit missing directorial decision",
+      "public_fixture": "fixtures/board-missing-input.json"
+    },
+    {
+      "case_id": "C-BOARD-02",
+      "expected_state": "BOARD_DRAFT_READY",
+      "focus": "timed action board awaiting human approval",
+      "public_fixture": "fixtures/board-action-draft.json"
+    },
+    {
+      "case_id": "C-APPROVAL-03",
+      "expected_next_action": "compile_shot_contract",
+      "focus": "human-approved board and reference-role binding",
+      "public_fixture": "fixtures/board-action-approved.json"
+    },
+    {
+      "case_id": "C-REFERENCE-04",
+      "expected_validation_status": "INVALID",
+      "focus": "one reference assigned conflicting primary roles",
+      "public_fixture": "fixtures/reference-roles-conflict.json"
+    }
+  ],
+  "skill_id": "ai-anime-production-director",
+  "status": "LOCAL_REVISION_UNBENCHMARKED"
+}

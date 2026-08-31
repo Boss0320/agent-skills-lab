@@ -1,0 +1,5 @@
+{
+  "consumer_period": "year_to_date",
+  "pipeline": "metrics_summary",
+  "producer_period": "quarterly"
+}

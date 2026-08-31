@@ -1,0 +1,5 @@
+{
+  "entrypoint": "render_decision",
+  "adapter": "adapt_signal",
+  "consumer": "DecisionRenderer"
+}

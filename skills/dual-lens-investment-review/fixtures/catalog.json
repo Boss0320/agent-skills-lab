@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "case_id": "CASE-EMBER",
+      "project_root": "fixtures/cases/CASE-EMBER",
+      "claim_ids": ["C1", "C2"],
+      "source_files": ["sources/annual-summary.md"]
+    },
+    {
+      "case_id": "CASE-DELTA",
+      "project_root": "fixtures/cases/CASE-DELTA",
+      "claim_ids": ["C1", "C2"],
+      "source_files": ["sources/cash-flow-note.md"]
+    },
+    {
+      "case_id": "CASE-HARBOR",
+      "project_root": "fixtures/cases/CASE-HARBOR",
+      "claim_ids": ["C1", "C2", "C3"],
+      "source_files": ["sources/annual-summary.md", "sources/risk-note.md"]
+    },
+    {
+      "case_id": "CASE-IVORY",
+      "project_root": "fixtures/cases/CASE-IVORY",
+      "claim_ids": ["C1", "C2", "C3"],
+      "source_files": ["sources/annual-summary.md", "sources/customer-note.md"]
+    }
+  ]
+}

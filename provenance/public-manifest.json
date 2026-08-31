@@ -1,0 +1,782 @@
+{
+  "schema_version": "agent-skills-lab-public-manifest/v1",
+  "revision": "private-remote-publication-2026-08-31",
+  "self_entry": "excluded_by_design",
+  "entries": [
+    {
+      "path": ".gitignore",
+      "size": 29,
+      "sha256": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672"
+    },
+    {
+      "path": "LICENSE",
+      "size": 426,
+      "sha256": "72a8fc15729c924cd58f77ac839170cf1e6b279b773452a0db2ac8bc49aa8b78"
+    },
+    {
+      "path": "PUBLICATION_STATUS.md",
+      "size": 2658,
+      "sha256": "0bfae83b4aa63bfbf0ef20ec24c2eeff574210bed5759dd1bb5f2a71ea5ae265"
+    },
+    {
+      "path": "README.md",
+      "size": 4592,
+      "sha256": "d5773e5ef9d7184738279ff2bb658ae90f92e33915ecbe6badcc330eb937074f"
+    },
+    {
+      "path": "README.zh-TW.md",
+      "size": 4558,
+      "sha256": "408643fcc1dcb490e9afa53a8d87270acc971d19a736ffd8147905d0962c87c9"
+    },
+    {
+      "path": "evidence/README.md",
+      "size": 2411,
+      "sha256": "0e92f734eb579ba92e053a6d57e92ce448590a979b8914854946c130f1a89650"
+    },
+    {
+      "path": "evidence/benchmark-summary.json",
+      "size": 2287,
+      "sha256": "28401ee45ebd933cfb03415e3e751af56bb0313ca7869c187756d77174f24227"
+    },
+    {
+      "path": "provenance/revision-provenance.json",
+      "size": 1923,
+      "sha256": "fc7eedd09b6786299c02cf44bb0bb58a5e2046a2fe1321a75251136765e9ddcb"
+    },
+    {
+      "path": "provenance/third-party-notices.md",
+      "size": 1511,
+      "sha256": "7738d3e59b8ad97de8a0845a4d7312dcfe9a699714b1ba2a59f3aac601802c12"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "size": 54,
+      "sha256": "3d5783442b5794b207bbb7c161f35eb36a05c135c55a6c49778ab12dec8bbcb1"
+    },
+    {
+      "path": "scripts/assemble_pilot_executor_bundle.py",
+      "size": 8431,
+      "sha256": "84bae268ada2281e15777eb024b354b9052bfceb41086133c7b2e17caee050f2"
+    },
+    {
+      "path": "scripts/assemble_public_candidate.py",
+      "size": 8643,
+      "sha256": "9191395ea884b882ad53a4bb3b691724b0d2293fa374d554eae8c76896e3be4a"
+    },
+    {
+      "path": "scripts/build_public_manifest.py",
+      "size": 6920,
+      "sha256": "540ab7b380e4c1e60c89d2a74867d8d79d8757627fdfb8c59a4bf79b6697db37"
+    },
+    {
+      "path": "scripts/scan_public_boundary.py",
+      "size": 12798,
+      "sha256": "856a29a10e1a5684035b0b846ba23d3c1f0b351d9788f65bb9eb857a805fb83b"
+    },
+    {
+      "path": "scripts/validate_pilot_audit_packet.py",
+      "size": 3574,
+      "sha256": "8bf6c867ba9f6cce6b04604f039877d2bf99dd7007ed98d778cf167e94af4148"
+    },
+    {
+      "path": "scripts/validate_pilot_detection.py",
+      "size": 8301,
+      "sha256": "22a7562f0550acb5548219f1034e67179a260096bac4970ca5792f211d470f55"
+    },
+    {
+      "path": "scripts/verify_evidence_packet.py",
+      "size": 15872,
+      "sha256": "d62d9587d7c86c185569d3cb23f6fb18e8674cb24d1d33a08daca39dd4fa648a"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/SKILL.md",
+      "size": 5674,
+      "sha256": "2c19a157c69198e1ed953c6894049e912db4c1130779bb18cdc3e93b12b686a8"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/evals/evals.json",
+      "size": 2090,
+      "sha256": "19edce114f38465b6d9ca4cc7ce89e9bc345c223d66b7f98fdc16cf0992abc72"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-01/case-manifest.json",
+      "size": 555,
+      "sha256": "5121163c92e78ed22b908f3c84fe64ac6f90bdba6577bcda83183c704c82aca5"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-01/config/system.json",
+      "size": 120,
+      "sha256": "acef4efec737af1e27bff222bd4b3110064a6f37dae8ec4b0d676d0f4ed4868c"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-01/src/component.py",
+      "size": 396,
+      "sha256": "bff7dde35274ca37ad1fe4e4d1f41d595651cf9b00d6d5de2643298fffdc051f"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-01/src/contracts.py",
+      "size": 258,
+      "sha256": "027c7020aa6c7284592bf941ead1bde7d5a29657b22a5a3590d4fc682bc1f95b"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-01/src/integration.py",
+      "size": 1527,
+      "sha256": "70cc768892c57b984f633456e334a5cc0fa7f3aa0b7afeab4dcae29dcc613574"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-01/tests/test_system.py",
+      "size": 2585,
+      "sha256": "81a11c8d4132389e39e56f5bf6d85344673c45f024eedc4e266b579117183c45"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-02/case-manifest.json",
+      "size": 553,
+      "sha256": "3b0e54554cc763a22a67c573a11d446a4cacf799d193255b3c7d45167ebe8e6a"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-02/config/system.json",
+      "size": 55,
+      "sha256": "790ff8197fafc17f0b49188c1cb80862e604c57b828b76c4484d15b925b55073"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-02/src/component.py",
+      "size": 340,
+      "sha256": "f51ed6313088a1552ecef623e67e8ba4e99db07554faf732152bcda43f4ce80a"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-02/src/contracts.py",
+      "size": 2357,
+      "sha256": "dcd040cc4810440ec42960f40171f600d3a5b674615649f84afb6ec24c03a7bf"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-02/src/integration.py",
+      "size": 1152,
+      "sha256": "8389577941d0506e8484b58ffb64acceb38573cb1e28be59359e6eed0503ce31"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-02/tests/test_system.py",
+      "size": 863,
+      "sha256": "1942f45d90765bec0ce2687ca3305d2619795cb93ebe04957b3a8f8842a00884"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-03/case-manifest.json",
+      "size": 554,
+      "sha256": "95470617326330581258f789e579b67ad1c5983a0a107dd083e7acdd30b968d3"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-03/config/system.json",
+      "size": 136,
+      "sha256": "76ed4f73d4283c70cae2ce4fbbbbe976b8b008b3d16ea292e4cea00a2d708197"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-03/src/component.py",
+      "size": 432,
+      "sha256": "9c28fe2f63c3768779547e120ca45019b93543d4cd5fee3e8f02872fcef6dbdd"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-03/src/contracts.py",
+      "size": 226,
+      "sha256": "c4f4aff54385cc1a260008818eaccd7012db99499f7a95eb9105a15bff52a3f5"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-03/src/integration.py",
+      "size": 473,
+      "sha256": "a9ee5bd0bd2f3cf2251d7addde0f1db60bc6e6a6e68f89d80327b0e2c8cf486e"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/CLEAN-03/tests/test_system.py",
+      "size": 834,
+      "sha256": "d3f7d7525c442e1d377fd0c0bbef844c8c0a26dd26098d39680a0ec4243401e8"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D02-SCHEMA/case-manifest.json",
+      "size": 559,
+      "sha256": "40bd2e47764c9a02ee2b3814ae3a29b6dcc0aedcf7efe942a2d066afc76f4a31"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D02-SCHEMA/config/system.json",
+      "size": 107,
+      "sha256": "1530bdf44cb966f813f1157d79e7221c0e729aa544fb3a1197189d4c853598db"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D02-SCHEMA/src/component.py",
+      "size": 407,
+      "sha256": "ca0c4ac4b2bb21258704f96a233560d01cd50b3a221096a0f1a8a6527dcfde4f"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D02-SCHEMA/src/contracts.py",
+      "size": 485,
+      "sha256": "a7a1f4719d3b1b990ef0b9db97467063bd6dc5445704a3604c199be0b6cee785"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D02-SCHEMA/src/integration.py",
+      "size": 329,
+      "sha256": "7e11f315b1a07c85f0d97c5d54402c976153022344fde98301c9f6278066366e"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D02-SCHEMA/tests/test_system.py",
+      "size": 404,
+      "sha256": "a927d5693cc391d2e9a282d00d618044ccfbdea6f3e92080b925ad2cdd5a4e56"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D03-DATAFLOW/case-manifest.json",
+      "size": 557,
+      "sha256": "79cb1cc36b9d4fef6bfa1f2a2b66ac948c92a8ea5ddec2c333fa2a05525e4b85"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D03-DATAFLOW/config/system.json",
+      "size": 101,
+      "sha256": "5402c1c49e51222da8901837b3f31f6e4b421e07c1dbd43871ca00ddf8f2a5e6"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D03-DATAFLOW/src/component.py",
+      "size": 475,
+      "sha256": "406263e8e2dc4adf529baa030acee08d27c2b2a4df8cd639151da26fdfdd32a8"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D03-DATAFLOW/src/contracts.py",
+      "size": 255,
+      "sha256": "4479061bec42e58adc027f332c7c84aef485419bee094b1076d9020815efd9a8"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D03-DATAFLOW/src/integration.py",
+      "size": 541,
+      "sha256": "85611e2e35426d1fd017a8c58bef83968872375cf01d846e98fbc614405ec125"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D03-DATAFLOW/tests/test_system.py",
+      "size": 1080,
+      "sha256": "4ad9f76c7f33ed0f5225bc5dbf2019dd5199f3cd90102fc35126d0851ecdde02"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D08-ADAPTER/case-manifest.json",
+      "size": 557,
+      "sha256": "e79d008432ca25abb9deb284d2036bfa0eb3a291efa35f42755fb1311e2e2759"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D08-ADAPTER/config/system.json",
+      "size": 112,
+      "sha256": "d241daf6afc85134867f4ffa3e5d62c6f7751b2a43467b200dccbe060157b031"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D08-ADAPTER/src/component.py",
+      "size": 2340,
+      "sha256": "47e2621528dcf6e97c79eefa40686a4463b4729adbfe095bcbdc6ea5bb43c3d0"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D08-ADAPTER/src/contracts.py",
+      "size": 226,
+      "sha256": "c70605e96ea1a823691f7fc0ae531d9a2d7e11629db7a363319428f84ab0fcd8"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D08-ADAPTER/src/integration.py",
+      "size": 563,
+      "sha256": "fca9d3182bbf62a50ddfc42aaf9a469662398b7bfbd0bc63e7ed74c50b7cea9d"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D08-ADAPTER/tests/test_system.py",
+      "size": 599,
+      "sha256": "655db4bc234a9d3e1d14eec01b058d4e049a621fe411761df7ee68d5f1a31d36"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D11-REQUIRED-PATH/case-manifest.json",
+      "size": 564,
+      "sha256": "df505fa1c22f547dcb0c70fe8d3ad70e7a8000bde80fd316b54ca718b8991e94"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D11-REQUIRED-PATH/config/system.json",
+      "size": 96,
+      "sha256": "5903c757618125d268c3e06995bfe1b7c10b791edf76639837967f29f0cea666"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D11-REQUIRED-PATH/src/component.py",
+      "size": 448,
+      "sha256": "9e5e2cb3a01a63e04d97a8b508965756dc92f3f23a26821c8f65adb838beda55"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D11-REQUIRED-PATH/src/contracts.py",
+      "size": 246,
+      "sha256": "02284b25090bc0fbb948d34596afc70a8e282e392ebb6f5786f7444e302a89e9"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D11-REQUIRED-PATH/src/integration.py",
+      "size": 477,
+      "sha256": "e4a8aab5c0732901b31d2e5dc9536ba156c5f9a48ba45504fa0bdb5e0396c2d1"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D11-REQUIRED-PATH/tests/test_system.py",
+      "size": 1128,
+      "sha256": "4cdfe70a0299e39103e167e31da80d1718c202d27818fa1142277f19d676cdbf"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D12-SEMANTIC/case-manifest.json",
+      "size": 559,
+      "sha256": "3e97292ef82a1899175862610b703539b9f745314bf1ffdc63833d901d611798"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D12-SEMANTIC/config/system.json",
+      "size": 55,
+      "sha256": "790ff8197fafc17f0b49188c1cb80862e604c57b828b76c4484d15b925b55073"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D12-SEMANTIC/src/component.py",
+      "size": 340,
+      "sha256": "f51ed6313088a1552ecef623e67e8ba4e99db07554faf732152bcda43f4ce80a"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D12-SEMANTIC/src/contracts.py",
+      "size": 2357,
+      "sha256": "dcd040cc4810440ec42960f40171f600d3a5b674615649f84afb6ec24c03a7bf"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D12-SEMANTIC/src/integration.py",
+      "size": 1134,
+      "sha256": "7bb647fc7ef8492a558480816697d8383b121c84a2b6563468a270a00e035991"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/cases/D12-SEMANTIC/tests/test_system.py",
+      "size": 761,
+      "sha256": "87ede67780cff64db2441df9589336b34fc2151cedfae62022e87aae499fd196"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/fixtures/catalog.json",
+      "size": 4930,
+      "sha256": "dafb249f01748db06bf7a1921f0178eccd9d98c9396067233136f7c8fbe2044b"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/references/audit-contract.md",
+      "size": 6426,
+      "sha256": "a53ca01b647ac46ad7a81362928345e91b4bc195a430cf95b4dc0b3446a4bde3"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/references/detection-workflow.md",
+      "size": 3978,
+      "sha256": "b688026ab72487bb3dd4a8d94d2cc90d3624b3b21705b69ff55e3a051cc539f0"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/scripts/validate_audit_packet.py",
+      "size": 20605,
+      "sha256": "14216cca35b9de352df2517ec62515e68a3b12cf3c20b904e734548f82821cec"
+    },
+    {
+      "path": "skills/agent-system-integration-audit/scripts/validate_detection_record.py",
+      "size": 11362,
+      "sha256": "4b48ae6e62efb0f17ef623d14855cd318bd5866f1b0ea792a8d6ad1ea3eaae05"
+    },
+    {
+      "path": "skills/ai-anime-production-director/SKILL.md",
+      "size": 6216,
+      "sha256": "4e163c4c17562bb0540771ab9e576177682d9e0090a07e02925ff657ee1e233b"
+    },
+    {
+      "path": "skills/ai-anime-production-director/TESTING.md",
+      "size": 969,
+      "sha256": "0b4e3ee542ea5e9130c93b148ddff703ee3d112d2e6dc2b7e33a102526cefcd3"
+    },
+    {
+      "path": "skills/ai-anime-production-director/evals/evals.json",
+      "size": 1262,
+      "sha256": "92ea42034113e8ebc81869ac5ba4e24d2234452b18f19453c9bd68b731b0a57f"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/approved/generation-handoff.md",
+      "size": 1794,
+      "sha256": "572a41e6afb32c994d76de55881a6a637412facf78ec66fd2c338f1d0a090907"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/approved/human-approval.json",
+      "size": 265,
+      "sha256": "ff12a8ca46a0492f2169333be90b8730631436124540a478b24f229f0dfcf056"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/approved/reference-roles.json",
+      "size": 1668,
+      "sha256": "254659ce8bdd4e10729b300e4e6194966e69f7594499d25c9e46bc9ca744554b"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/approved/shot-board.json",
+      "size": 2517,
+      "sha256": "47815e95a2ea1a0d9fb7f8164e334b07402b791aebd2089dfac21b11905668a0"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/approved/shot-board.md",
+      "size": 1034,
+      "sha256": "e339da7e0a546d2c31fce9f0be738b2fefe803478a67443d22b5acfa97872b73"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/approved/shot-contract.json",
+      "size": 3187,
+      "sha256": "14e7837960760d5658ede2ba58286346d5c0c9c108bc7c45517e8f94f470ab0c"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/brief.md",
+      "size": 683,
+      "sha256": "c80a5d8328e42549582f4ccd5a1dede40fdd9233a5bfda1240889f3915549ef7"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/draft/reference-roles.json",
+      "size": 1668,
+      "sha256": "254659ce8bdd4e10729b300e4e6194966e69f7594499d25c9e46bc9ca744554b"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/draft/shot-board.json",
+      "size": 2238,
+      "sha256": "59c800f06a3d7b346ed1111866433f853612205ce34f60f353c7562e144f1795"
+    },
+    {
+      "path": "skills/ai-anime-production-director/examples/five-second-sword-charge/draft/shot-board.md",
+      "size": 1323,
+      "sha256": "ab127685923d602eaa5a824c8fc58a67d0642a34c74965ef95092b251b9804c7"
+    },
+    {
+      "path": "skills/ai-anime-production-director/fixtures/board-action-approved.json",
+      "size": 2517,
+      "sha256": "47815e95a2ea1a0d9fb7f8164e334b07402b791aebd2089dfac21b11905668a0"
+    },
+    {
+      "path": "skills/ai-anime-production-director/fixtures/board-action-draft.json",
+      "size": 2238,
+      "sha256": "59c800f06a3d7b346ed1111866433f853612205ce34f60f353c7562e144f1795"
+    },
+    {
+      "path": "skills/ai-anime-production-director/fixtures/board-missing-input.json",
+      "size": 1180,
+      "sha256": "d9ee0023071c6e96e797affe87bb789ad2d9b9c47ea3e12c7cd2ea0c7e545c4e"
+    },
+    {
+      "path": "skills/ai-anime-production-director/fixtures/reference-roles-conflict.json",
+      "size": 879,
+      "sha256": "7fd57fac0ea33b2eb9884ee2c1473c8fa6e28259974de553413912f3c9c3e6b9"
+    },
+    {
+      "path": "skills/ai-anime-production-director/fixtures/reference-roles-valid.json",
+      "size": 1668,
+      "sha256": "254659ce8bdd4e10729b300e4e6194966e69f7594499d25c9e46bc9ca744554b"
+    },
+    {
+      "path": "skills/ai-anime-production-director/references/guided-preproduction.md",
+      "size": 2756,
+      "sha256": "2d2402eb831b11dab681c5b9e94a23c5ffd5b8cb82d0954ea7f190ce34026620"
+    },
+    {
+      "path": "skills/ai-anime-production-director/references/shot-contract.md",
+      "size": 2650,
+      "sha256": "89fc994f0c1c46704fa30f6152c366c38a8f890663dbee021fc1de7a4e1f4338"
+    },
+    {
+      "path": "skills/ai-anime-production-director/references/storyboard-contract.md",
+      "size": 3475,
+      "sha256": "7546d23903d5f6b066e7b1c089595ec74ac3957c7fcfa083721ecd95da38ffdf"
+    },
+    {
+      "path": "skills/ai-anime-production-director/scripts/compile_shot_contract.py",
+      "size": 7289,
+      "sha256": "fc3e173cb2716057ebe57a8065597dca7d3d781bdef276998672a34904cc6beb"
+    },
+    {
+      "path": "skills/ai-anime-production-director/scripts/validate_shot_contract.py",
+      "size": 20432,
+      "sha256": "84d75c66dd719675f254caf83549edabe853604bcafd1e3af76c8b9bc8652054"
+    },
+    {
+      "path": "skills/ai-anime-production-director/scripts/validate_storyboard.py",
+      "size": 21500,
+      "sha256": "4d12ea25ccd330de4a864023e484c6989cbc6d3f03ec38ed8ad8748412d1394e"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/SKILL.md",
+      "size": 7349,
+      "sha256": "9ef5204a1cbbc60df131ad2d5088624f47fac744a9fe08bb1c4aca2ed7590fb9"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/TESTING.md",
+      "size": 2116,
+      "sha256": "cfb15892b6620cb1d01110f5573078a4cb1f8bcc76922fa2499dffabcec8608e"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/evals/evals.json",
+      "size": 2631,
+      "sha256": "22c2bec1cc94f0bb76be00ee90a11ba007ce8063356f9c358d4aeba2ca70b053"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/examples/review-summary.md",
+      "size": 687,
+      "sha256": "36b821b8ca8466ba8773c280335fafe47572fa41a3db799654a68e20d4191a7a"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-DELTA/TASK.md",
+      "size": 387,
+      "sha256": "49ed755dc92d485db80afba137e4a8474bf7eb3c1851781398859c298edc5e81"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-DELTA/case-manifest.json",
+      "size": 643,
+      "sha256": "2427d58fe6a10b14a5fa667f31a953dfb18e16f54f68d244d7b1ba88a46932bf"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-DELTA/decision-context.md",
+      "size": 212,
+      "sha256": "0f7992c06bf037531b4635281a1322936882390845554537d76fe6a94ae130bf"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-DELTA/report.md",
+      "size": 590,
+      "sha256": "c6b63f482bfb50e53eca90950a4a6df4aae559e86211598817b81003f37d8368"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-DELTA/sources/cash-flow-note.md",
+      "size": 325,
+      "sha256": "0583ad736f6fe11e1fabca28a2418a4df63ea5b5c44af5a43b6ea47978cce997"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-EMBER/TASK.md",
+      "size": 387,
+      "sha256": "3d447556fae9ee14dcb7ebe7219579d953a57455054ca76abf2249f2f4943b8f"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-EMBER/case-manifest.json",
+      "size": 643,
+      "sha256": "3a0c6b9d86f06bed700b2faba8bb06510d62443d2022cc230874ee748b045f72"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-EMBER/decision-context.md",
+      "size": 266,
+      "sha256": "90ce1074ebcbb1553b0fb8d367482b97bcd5c435e542651bc9a9b7f8cedeeebf"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-EMBER/report.md",
+      "size": 534,
+      "sha256": "69d41598f2e0acd5b13d6547d75fc54266e93a7f18c66a9ef9486908e16a1028"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-EMBER/sources/annual-summary.md",
+      "size": 276,
+      "sha256": "83c7f8ff40eb70426354f9b4955385c34bf5d1f3d5ac5b5231addeb0e39af4bf"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-HARBOR/TASK.md",
+      "size": 388,
+      "sha256": "c537d6a679da145fa05d7466d9a6d9a72ca080e91c6718159cb3deedfb953fc9"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-HARBOR/case-manifest.json",
+      "size": 798,
+      "sha256": "38cb50bd6a1e03a142c7db69c49544811ed50f05b6b27d7d98e0ba941bc2fab7"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-HARBOR/decision-context.md",
+      "size": 220,
+      "sha256": "d8e573aa67ddfc54fa0b1aec237764b29e6f5d93ee8f296a88f6bafaceb5e134"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-HARBOR/report.md",
+      "size": 679,
+      "sha256": "123900f00d9ec461225d6ddcd983f02ba00cabe586ba665b58db6aed0e962b54"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-HARBOR/sources/annual-summary.md",
+      "size": 201,
+      "sha256": "b6e8861343fc553c0764fdfe3d3e6efa5d294275a3cb80424dc453fac3c2831b"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-HARBOR/sources/risk-note.md",
+      "size": 217,
+      "sha256": "ea2d58e1455bbebab868cdfba2409548bb728e88e6a4698eb561c1ff1f005b5c"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-IVORY/TASK.md",
+      "size": 387,
+      "sha256": "acac34a50f8177f1436c5877652c606d958114616274467f724cd634abba4f6b"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-IVORY/case-manifest.json",
+      "size": 801,
+      "sha256": "e2166a32f96076860e619ce04ba452c3b263eff72f73f88c37485639e5908e16"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-IVORY/decision-context.md",
+      "size": 274,
+      "sha256": "c7e0451c78461a5bc28f423116bd8906deecc805b8834bd0ebd48a10c4c9dce1"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-IVORY/report.md",
+      "size": 601,
+      "sha256": "b40d6f382802f5dcde48a12b9c9955a011d43ea660673da4d216b9d957452433"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-IVORY/sources/annual-summary.md",
+      "size": 201,
+      "sha256": "00cdf1ec7ccdf0954d8036a6095c116312b3342bd4176768a2d4b71f632c0456"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/cases/CASE-IVORY/sources/customer-note.md",
+      "size": 214,
+      "sha256": "638dd661768509f25702e32e89c0ad6203b1e2d63099e421e97e9cf26a75e0cb"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/fixtures/catalog.json",
+      "size": 806,
+      "sha256": "607368afd227d46639022750cd59a7f170c0ef9f5ed57f333ec5eba284214ed4"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/references/guided-intake-and-materiality.md",
+      "size": 3030,
+      "sha256": "eb091a5ee5f3674124a57137a06c36cbe91bae86f556c0fc08777ce7e72d6380"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/references/review-contract.md",
+      "size": 5136,
+      "sha256": "1dc71723f0c7357007f948b54dadeded6e92399ac81ef2579e7af2ca9ae753f4"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/scripts/reconcile_reviews.py",
+      "size": 17063,
+      "sha256": "1f2db636f99b31e0bc8f5674da24a6aadca8387d3cbb873fc58873fcc484947a"
+    },
+    {
+      "path": "skills/dual-lens-investment-review/scripts/validate_lens_delivery.py",
+      "size": 11874,
+      "sha256": "a2c416009ae57037d204ef466e959002a49491362a7ff0881ddcca24ca05e712"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size": 48,
+      "sha256": "b896f17a7583e5290da16ef5000c13541021dfb7544a4eeb4cf37f11514a25e8"
+    },
+    {
+      "path": "tests/test_anime_director_contract.py",
+      "size": 1835,
+      "sha256": "e94cfa4a48a6600e1b4a62887c52c83a08ee8223a64717c2791a626063b8c6d3"
+    },
+    {
+      "path": "tests/test_anime_director_examples.py",
+      "size": 3993,
+      "sha256": "72f3a839ca50dc1369711ccef2011f0ad5afda27853099c97f3ea0e8a32dac27"
+    },
+    {
+      "path": "tests/test_anime_director_regressions.py",
+      "size": 1842,
+      "sha256": "3add09472efded8e1abc1f6ab189e425e47e0683ef95901d8d0f3bbc4a5fd1d7"
+    },
+    {
+      "path": "tests/test_audit_packet_validator.py",
+      "size": 30014,
+      "sha256": "b6e62236c135e3b7d716c976dfbbb7146d7196b2f88a6512e5248703c1c5294a"
+    },
+    {
+      "path": "tests/test_detection_first_fixtures.py",
+      "size": 4706,
+      "sha256": "d0fb1f72caddbabc606911ac186b9fcbcc9f1e6042cf05b1667bbdafee912f79"
+    },
+    {
+      "path": "tests/test_detection_record_validator.py",
+      "size": 8763,
+      "sha256": "cbb2999ff3af1aaf5541baee36f72463ed2d562dcf22dce8fbd570a5ec647e26"
+    },
+    {
+      "path": "tests/test_dual_lens_contract.py",
+      "size": 2258,
+      "sha256": "a7d321a8910ed653322dcb6d1c4b98ed87c940ff6ee8aafee02f8d2755534e1d"
+    },
+    {
+      "path": "tests/test_dual_lens_delivery.py",
+      "size": 10356,
+      "sha256": "07b0376d93930914101ccf895243b57036f9608cbdc292f2840c9dffc44c17c0"
+    },
+    {
+      "path": "tests/test_dual_lens_fixtures.py",
+      "size": 4800,
+      "sha256": "f0c34d7d93fb2db9cdd54745837c6ae4b74f7e07e3155d25a31bb2930d155dda"
+    },
+    {
+      "path": "tests/test_dual_lens_materiality.py",
+      "size": 8880,
+      "sha256": "5706dc3fb8cae7d0a51023ff2150452d0d79ca606592546be0fadfa5b6610d73"
+    },
+    {
+      "path": "tests/test_dual_lens_reconciler.py",
+      "size": 4896,
+      "sha256": "5fb51e84f233b0c7e90851f3eaad21c830f39bb7c61ad208d3b1c5f4eadf4a4c"
+    },
+    {
+      "path": "tests/test_evidence_packet.py",
+      "size": 13539,
+      "sha256": "e3b23c812f2d1875c7f8a36af4bf293ddb09dbb288ee96cd3a1c46e4289149e7"
+    },
+    {
+      "path": "tests/test_fixture_catalog.py",
+      "size": 7872,
+      "sha256": "b595c3bd337b6352ea7123d42dcb543319713fac4b6c8624f9c1f86b8ca20669"
+    },
+    {
+      "path": "tests/test_integration_audit_contract.py",
+      "size": 12871,
+      "sha256": "9278fb92fda279045e1c0899d4bc8e6de2752070874394e61fd4a80fb1a5816f"
+    },
+    {
+      "path": "tests/test_layered_expert_contract.py",
+      "size": 5392,
+      "sha256": "869347e3ffa25a5d6b45255a333b245c427ae094f7664dfa2564b0e0b798c53d"
+    },
+    {
+      "path": "tests/test_package_contract.py",
+      "size": 2387,
+      "sha256": "6fdcf69e11f6ccd11dea678496e542b50c20cce2fb5fec700e46a511e18b26fb"
+    },
+    {
+      "path": "tests/test_pilot_audit_packet.py",
+      "size": 4475,
+      "sha256": "adf573705e0af9bf501f7b63ed3f105fbb604b4c92b90e38c3ecd706ea4bf6f7"
+    },
+    {
+      "path": "tests/test_pilot_detection.py",
+      "size": 4328,
+      "sha256": "08345e576381e985e18b02fcb96a8d07d0644160fb7cb256dde99c2fcd307c43"
+    },
+    {
+      "path": "tests/test_pilot_executor_bundle.py",
+      "size": 11571,
+      "sha256": "7efe1dcf490273f31a32032f9b5b4a353c7d7097eec078c5bc8a7570efd7ad8e"
+    },
+    {
+      "path": "tests/test_public_assembler.py",
+      "size": 13428,
+      "sha256": "8a65feea4004187ea84ed8d28023d9630576b06d39864bb5c6cdc8f65ed5b557"
+    },
+    {
+      "path": "tests/test_public_boundary.py",
+      "size": 16066,
+      "sha256": "9afd214dfde6fa80e89c681d51d8bd48cbc69b0a4801b268c492ccc9a0ec5902"
+    },
+    {
+      "path": "tests/test_public_validator_matrix.py",
+      "size": 11972,
+      "sha256": "e8b304bd2f5ac99612cfe3a7de23954d358f9ea34a52277d81e229331304a737"
+    },
+    {
+      "path": "tests/test_publication_evidence_contract.py",
+      "size": 15975,
+      "sha256": "367385ce219c67aa713a5a12f2836b8f9fee5dcb96b99de92ae0e1d32732ac7f"
+    },
+    {
+      "path": "tests/test_shot_contract_compiler.py",
+      "size": 5175,
+      "sha256": "677a5afea6ae6e0102371eb9b09229a185838a0ca15ec15e9ce0d2e1678c22ce"
+    },
+    {
+      "path": "tests/test_shot_contract_validator.py",
+      "size": 6580,
+      "sha256": "ec422cd4770b121291ce7f8ba2e3694d5db98c15f539aa9e9e3905e8b82b54c2"
+    },
+    {
+      "path": "tests/test_skill_a_pilot_fixtures.py",
+      "size": 24665,
+      "sha256": "e324e0cbc3d67aa5b836a747fa58ca2fe4ccb4a6ca04585dbe30ef5825aa2bff"
+    },
+    {
+      "path": "tests/test_storyboard_validator.py",
+      "size": 15936,
+      "sha256": "7373593694717f7f789b1247b600e41f98d7937e07c984bae3eceffee816ce7d"
+    }
+  ]
+}

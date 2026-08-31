@@ -1,0 +1,47 @@
+{
+  "references": [
+    {
+      "asset_state": "provided",
+      "content_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "description": "Front identity and costume anchor.",
+      "primary_role": "identity",
+      "reference_id": "CHAR-FRONT"
+    },
+    {
+      "asset_state": "provided",
+      "content_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "description": "Side silhouette for the forward lean.",
+      "primary_role": "motion",
+      "reference_id": "CHAR-SIDE"
+    },
+    {
+      "asset_state": "provided",
+      "content_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+      "description": "Sword hilt and guard geometry.",
+      "primary_role": "prop",
+      "reference_id": "SWORD-DETAIL"
+    },
+    {
+      "asset_state": "human_approved",
+      "content_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "description": "Human-approved first control frame.",
+      "primary_role": "start",
+      "reference_id": "BOARD-START"
+    },
+    {
+      "asset_state": "human_approved",
+      "content_sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+      "description": "Human-approved overhead extreme control frame.",
+      "primary_role": "motion",
+      "reference_id": "BOARD-MID"
+    },
+    {
+      "asset_state": "human_approved",
+      "content_sha256": "6666666666666666666666666666666666666666666666666666666666666666",
+      "description": "Human-approved charge boundary frame.",
+      "primary_role": "end",
+      "reference_id": "BOARD-END"
+    }
+  ],
+  "shot_id": "SHOT-SWORD-01"
+}

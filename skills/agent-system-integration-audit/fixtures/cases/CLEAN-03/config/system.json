@@ -1,0 +1,6 @@
+{
+  "entrypoint": "load_quote",
+  "primary": "PrimaryQuoteSource",
+  "fallback": "CachedQuoteSource",
+  "degraded_status": "degraded"
+}

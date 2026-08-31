@@ -1,0 +1,11 @@
+{
+  "case_id": "CLEAN-03",
+  "project_name": "SableFallback",
+  "file_sha256": {
+    "src/contracts.py": "c4f4aff54385cc1a260008818eaccd7012db99499f7a95eb9105a15bff52a3f5",
+    "src/component.py": "9c28fe2f63c3768779547e120ca45019b93543d4cd5fee3e8f02872fcef6dbdd",
+    "src/integration.py": "a9ee5bd0bd2f3cf2251d7addde0f1db60bc6e6a6e68f89d80327b0e2c8cf486e",
+    "config/system.json": "76ed4f73d4283c70cae2ce4fbbbbe976b8b008b3d16ea292e4cea00a2d708197",
+    "tests/test_system.py": "d3f7d7525c442e1d377fd0c0bbef844c8c0a26dd26098d39680a0ec4243401e8"
+  }
+}
